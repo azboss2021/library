@@ -9,9 +9,8 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem 10rem 1rem 10rem;
-    background: #8ee4af;
+    background: #5cdb95;
     align-items: center;
-    border-bottom: 4px solid #379683;
 }
 
 .logo {
@@ -84,6 +83,12 @@ nav {
 
 .card_author {
     font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card_pages {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
