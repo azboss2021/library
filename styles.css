@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #5cdb95;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10rem 1rem 10rem;
+    background: #8ee4af;
+    align-items: center;
+    border-bottom: 4px solid #379683;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #05386B;
+}
+
+#add_book {
+    padding: .5rem 1rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    background: #05386B;
+    color: #edf5e1;
+    border: none;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    min-width: 30rem;
+    background: #5cdb95;
+    padding: 2rem;
+    gap: .5rem;
+    color: #05386B;
+    z-index: 10;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.7);
+}
+
+.hidden {
+    display: none;
+}
+
+.books {
+    padding: 3rem;
+}
+
+.book_card {
+    height: 20rem;
+    width: 15rem;
+    background: #05386B;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #edf5e1;
+}
+
+.card_title {
+    font-style: italic;
+    font-size: 1.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card_author {
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card_read {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1rem;
+}
+
+.card_read input {
+    width: 2rem;
+}
+
+.card_delete_button {
+    background: darkred;
+    border: none;
+    font-size: 1.1rem;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    color: #edf5e1;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: #05386B;
+    font-size: 1rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -1rem;
+}
+
+.top h1 {
+    font-size: 2.5rem;
+}
+
+#submit_button {
+    padding: .5rem;
+    font-size: 1.5rem;
+    background: #05386B;
+    color: #edf5e1;
+    font-weight: bold;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#close_modal_button {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+    background: none;
+    border: none;
+    color: #05386B;
+    font-weight: bold;
+}
+
+.required {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: darkred;
+    font-size: 1.25rem;
+}
+
+li {
+    list-style: none;
+}
+
+.modal h1 {
+    margin-top: -.5rem;
+}
+
+.modal input {
+    font-size: 1.5rem;
+    padding: .75rem;
+}
+
+.books {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer {
+    bottom: 1rem;
+    font-size: 1.25rem;
+    color: #05386B;
+}

@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="styles.css" rel="stylesheet">
+    <title>Library Project</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">MyLibrary</div>
+        <button id="add_book">Add Book</button>
+    </nav>
+
+    <div class="modal hidden">
+        <div class="top">
+            <h1>Book Details</h1>
+            <button id="close_modal_button">X</button>
+        </div>
+        <input type=text placeholder="Book Title" id="input_title">
+        <input type=text placeholder="Book Author" id="input_author">
+        <input type=number placeholder="Pages" id="input_pages">
+        <div class="required">
+        </div>
+        <button id="submit_button">Add To Library</button>
+    </div>
+
+    <div class="books"></div>
+
+    <div class="footer">
+        <a href="https://github.com/azboss2021" target="#">Made By Caleb Wilson</a>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
