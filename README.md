@@ -1,5 +1,6 @@
 # library
+The Odin Project landing page.
 
-Made a Library App, However it lacks any form of storage...so don't leave the site!!!
+Learned basic Javascript, HTML and CSS. No storage implemented.
 
 Live Preview: https://azboss2021.github.io/library/
