@@ -1,4 +1,4 @@
-# library
+# Library
 The Odin Project library page.
 
 Learned basic Javascript, HTML and CSS. No storage implemented.
